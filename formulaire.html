@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulaire</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="bootstrap.min.css" />
+        <link rel="stylesheet" href="formulaire.css" />
+    </head>
+    <body class="mx-4">
+        <form>
+            <h1 class="text-center text-decoration-underline">FORMULAIRE</h1>
+
+            <h2 class="text-center"><p>ETAT CIVIL</p></h2>
+
+            <p>
+                <label for="nom" class="form-label">Votre nom</label
+                ><input type="text" id="nom" class="form-control my-2" />
+                <label for="prenom" class="form-label mt-2">Votre prenom</label
+                ><input type="text" id="prenom" class="form-control my-2" />
+            </p>
+
+            <h3 class="text-center my-4">COMPTE ACCES</h3>
+
+            <p>
+                <label for="login" class="form-label"
+                    >Adresse électronique</label
+                >
+                <input type="email" id="login" class="form-control my-2" />
+
+                <label for="password" class="form-label mt-2"
+                    >Votre mot de passe</label
+                >
+                <input type="password" id="password" class="form-control my-2" />
+            </p>
+
+            <p>SEXE</p>
+
+            <p>
+                <input
+                    type="radio"
+                    id="Masculin"
+                    name="sexe"
+                    class="form-check-input"
+                />
+                <label for="Masculin" class="form-check-label">Masculin</label>
+                <input
+                    type="radio"
+                    id="Feminin"
+                    name="sexe"
+                    class="form-check-input"
+                />
+                <label for="Feminin" class="form-check-label">Feminin</label>
+            </p>
+
+            <center>
+                <h4><p>DIPLOME</p></h4>
+            </center>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="CEP"
+                    class="form-check-input"
+                /><label for="CEP" class="form-check-label">CEP</label>
+            </p>
+            <p>
+                <input
+                    type="checkbox"
+                    id="BEPC"
+                    class="form-check-input"
+                /><label for="BEPC" class="form-check-label">BEPC</label>
+            </p>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="BAC"
+                    class="form-check-input"
+                /><label for="BAC" class="form-check-label">BAC</label>
+            </p>
+
+            <center>
+                <h4><p>LOISIRS</p></h4>
+            </center>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="Dance"
+                    class="form-check-input"
+                /><label for="Dance" class="form-check-label">Dance</label>
+            </p>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="Musique"
+                    class="form-check-input"
+                /><label for="Musique" class="form-check-label">Musique</label>
+            </p>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="Sport"
+                    class="form-check-input"
+                /><label for="Sport" class="form-check-label">Sport</label>
+            </p>
+
+            <p>
+                <input
+                    type="checkbox"
+                    id="Art"
+                    class="form-check-input"
+                /><label for="Art" class="form-check-label">Art</label>
+            </p>
+
+            <ul class="mt-5">
+                <button class="btn btn-primary" type="submit">
+                    Enregistrer
+                </button>
+                <button type="reset" class="btn btn-danger">Quitter</button>
+            </ul>
+        </form>
+
+        <script src="./bootstrap.bundle.min.js"></script>
+    </body>
+</html>
